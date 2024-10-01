@@ -11,6 +11,7 @@ ls
 #php artisan serve
 #https://fonts.bunny.net
 #https://www.fontshare.com
+#sh git_config.sh tabulator
 #cd eshop_nevim
 #php artisan serve
 #https://fonts.bunny.net
