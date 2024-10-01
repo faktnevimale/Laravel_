@@ -11,3 +11,7 @@ dir
 #php artisan serve
 #https://fonts.bunny.net
 #https://www.fontshare.com
+#cd eshop_nevim
+#php artisan serve
+#https://fonts.bunny.net
+#https://www.fontshare.com
