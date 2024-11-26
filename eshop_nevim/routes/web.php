@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProductController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -16,4 +17,9 @@ Route::get('/register', function () {
 
 Route::get('/auth', function () {
     return view('auth');
+});
+
+Route::get('/product', function () {
+    $product = \DB::table('product')->get();
+    return view('product.index', compact('product'));
 });
